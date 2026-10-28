@@ -1,0 +1,19 @@
+@host = http://localhost:5197
+
+###
+
+GET {{host}}/pizza/
+
+###
+
+GET {{host}}/pizza/1
+
+###
+
+POST {{host}}/pizza
+Content-Type: application/json
+
+{
+  "name": "Hawai",
+  "isGlutenFree": false
+}

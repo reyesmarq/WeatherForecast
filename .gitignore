@@ -1,0 +1,9 @@
+## .NET build artifacts
+bin/
+obj/
+
+## VS Code
+.vscode/
+
+## OS
+.DS_Store
